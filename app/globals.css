@@ -30,7 +30,8 @@ a { color: inherit; }
   max-width: 1200px;
   margin: 0 auto;
 }
-.logo { font-weight: 800; font-size: 1.6rem; color: var(--blue); text-decoration: none; letter-spacing: 1px; }
+.logo img { display: block; height: 64px; width: auto; border-radius: 8px; }
+.footer-logo { display: block; height: 96px; width: auto; border-radius: 8px; margin-bottom: 12px; }
 .nav-links { display: flex; flex-wrap: wrap; gap: 18px; list-style: none; margin: 0; padding: 0; }
 .nav-links a { text-decoration: none; color: var(--blue); font-weight: 600; font-size: 0.95rem; }
 .nav-links a:hover { text-decoration: underline; }

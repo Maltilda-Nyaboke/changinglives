@@ -25,7 +25,7 @@ export default function Home() {
     <main>
       <header className="wrap">
         <nav className="nav" aria-label="Main">
-          <a className="logo" href="#home">CL</a>
+          <a className="logo" href="#home"><img src="/logo.jpg" alt="Changing Family Lives Foundation" /></a>
           <ul className="nav-links">
             {nav.map((item) => (
               <li key={item.href}>
@@ -92,7 +92,7 @@ export default function Home() {
       <footer id="contact">
         <div className="footer-grid">
           <div>
-            <h3>CL</h3>
+            <img className="footer-logo" src="/logo.jpg" alt="Changing Family Lives Foundation" />
             <p>Spread the love, touch a life.</p>
           </div>
           <div>
